@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black font-sans text-gray-900;
+  }
+  li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+  }
+}
